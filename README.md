@@ -1,8 +1,8 @@
-# 📘 **Resumo para Prova – Linguagem C**
+#  **Resumo para Prova – Linguagem C**
 
 ---
 
-## 🎯 **O que vai cair na prova**
+##  **O que vai cair na prova**
 
 Você precisa saber:
 
@@ -16,7 +16,7 @@ Você precisa saber:
 
 ## 🔹 **1. Variáveis e Constantes**
 
-### ✅ Variáveis
+###  Variáveis
 
 Guardam valores que podem mudar.
 
@@ -26,7 +26,7 @@ float altura = 1.75;  // decimal
 char letra = 'A';     // caractere
 ```
 
-📌 Regras importantes:
+ Regras importantes:
 
 * `char` usa `' '`
 * `float` usa ponto (1.75)
@@ -34,7 +34,7 @@ char letra = 'A';     // caractere
 
 ---
 
-### ✅ Constantes
+###  Constantes
 
 Não mudam durante o programa.
 
@@ -46,7 +46,7 @@ const int ANO = 2025;
 
 ## 🔹 **2. Entrada e Saída**
 
-### 🖥️ Saída → `printf()`
+###  Saída → `printf()`
 
 ```c
 printf("Olá");
@@ -54,7 +54,7 @@ printf("Idade: %d", idade);
 printf("Altura: %.2f", altura);
 ```
 
-📌 Formatos:
+ Formatos:
 
 * `%d` → inteiro
 * `%f` → float
@@ -70,7 +70,7 @@ scanf("%f", &altura);
 scanf(" %c", &letra);
 ```
 
-⚠️ Cuidado na prova:
+Cuidado na prova:
 
 * Sempre usar `&`
 * Espaço antes de `%c`
@@ -92,7 +92,7 @@ int a = 10, b = 3;
 int r = a % b; // 1
 ```
 
-⚠️ Divisão inteira:
+ Divisão inteira:
 
 ```c
 int x = 5 / 2; // resultado = 2
@@ -157,30 +157,11 @@ if (idade >= 18 && altura > 1.60) {
 
 ---
 
-## 🔹 💡 **Exemplo Completo (padrão de prova)**
+## 🔹  **Exemplos estão todos nas pastas **
 
-```c
-#include <stdio.h>
 
-int main() {
-    int idade;
 
-    printf("Digite sua idade: ");
-    scanf("%d", &idade);
-
-    if (idade >= 18) {
-        printf("Maior de idade");
-    } else {
-        printf("Menor de idade");
-    }
-
-    return 0;
-}
-```
-
----
-
-## ⚠️ **Erros que MAIS caem na prova**
+##  **Erros que MAIS caem na prova**
 
 ❌ Esquecer `;`
 ❌ Usar `=` no lugar de `==`
@@ -189,7 +170,7 @@ int main() {
 
 ---
 
-## 🧠 **Dicas finais (importante!)**
+##  **Dicas finais (importante!)**
 
 ✔ Leia o problema com calma
 ✔ Identifique:
@@ -200,17 +181,3 @@ int main() {
 
 ✔ Teste mentalmente antes de responder
 
----
-
-## 🏁 **Resumo Final**
-
-Se você souber:
-
-* Variáveis
-* scanf / printf
-* Operadores
-* if / else
-
-👉 Você já garante boa parte da prova!
-
----
