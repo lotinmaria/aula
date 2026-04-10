@@ -62,7 +62,7 @@ printf("Altura: %.2f", altura);
 
 ---
 
-### ⌨️ Entrada → `scanf()`
+###  Entrada → `scanf()`
 
 ```c
 scanf("%d", &idade);
