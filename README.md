@@ -143,17 +143,11 @@ if (nota >= 7) {
 
 ## 🔹 **6. Operadores Lógicos**
 
-| Operador | Significado |   |    |
-| -------- | ----------- | - | -- |
-| &&       | E           |   |    |
-|          |             |   | OU |
-| !        | NÃO         |   |    |
-
-```c
-if (idade >= 18 && altura > 1.60) {
-    printf("Pode entrar");
-}
-```
+| Operador | Significado | 
+| -------- | ----------- | 
+| &&       | and E       |  verdadeiro se todas forem verdadeiras
+| ||       | OR ou       |  verdadeiro se pelo menos uma for verdadeira
+| !        | not NÃO     |  inverte o valor lógico
 
 ---
 
