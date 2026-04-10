@@ -146,7 +146,7 @@ if (nota >= 7) {
 | Operador | Significado | 
 | -------- | ----------- | 
 | &&       | and E       |  verdadeiro se todas forem verdadeiras
-| \|\|     | ou OR       |  kl
+| \|\|     | ou OR       |  verdadeiro se pelo menos uma for verdadeira
 | !        | not NÃO     |  inverte o valor lógico
 
 ---
